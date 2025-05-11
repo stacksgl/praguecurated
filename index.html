@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+	<title>pragueCurated</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styles.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<body>
+		<div class="navbar spacing">
+			<div class="navbar-title">
+				<h1>prague curated</h1>
+			</div>
+			<div class="navbar-links">
+				<a href="index.html">Home</a>
+				<a href="places.html">Curated Places</a>
+				<a href="about.html">About Us</a>
+				<a href="contact.html">Contact</a>
+				<a href="submit.html">Submit</a>
+			</div>
+		</div>
+		  
+		  <!-- Mobile nav -->
+		  <div class="hamburger" id="hamburgerBtn">
+			<i class="fas fa-bars"></i>
+		</div>
+		  <div class="mobile-nav" id="mobileMenu">
+			<a href="index.html">home</a>
+			<a href="places.html">curated places</a>
+			<a href="about.html">about us</a>
+			<a href="contact.html">contact</a>
+			<a href="submit.html">submit</a>
+		  </div>
+		  
+
+		<div class="landing-container">
+			<img class="landing-image" id="timeBasedImage" src="">
+			<div class="landing-top">
+				<h2 class="landing-header"> prague curated </h2>
+				<h2 class="landing-text"> Váš jediný průvodce Prahou </h2>
+			</div>
+		</div>
+
+		<div class="content spacing"> 
+			<h3>Místa v praze</h3>
+			<div id="content" class="loc-cards-container">
+
+
+					<div class="loc-container">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+						<div class="badge-container"><span class="badge vegan">Vegan</span><span class="badge star">🌟</span></div>
+						<a href="restaurace-1.html">Natureza</a>
+						<p>Restaurace</p>
+					</div>
+					<img src="images/restaurace/natureza/natureza2.jpg" class="loc-img-container">
+					</div>
+
+				<div class="loc-container">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+					  <div class="badge-container"><span class="badge hidden">Hidden 💎</span><span class="badge comfy">Comfy</span></div>
+					  <a href="kino-1.html">Přítomnost</a>
+					  <p>Kino</p>
+					</div>
+					<img src="images/kina/pritomnost/pritomnost1.jpg" class="loc-img-container">
+				  </div>
+
+				  <div class="loc-container">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+					  <div class="badge-container"><span class="badge location">Lokace</span></div>
+					  <a href="kavarna-4.html">Cafe Academia</a>
+					  <p>Kavárna</p>
+					</div>
+					<img src="images/kavarny/academia/academia1.jpg" class="loc-img-container">
+				  </div>
+
+				  <div class="loc-container">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+					  <div class="badge-container"><span class="badge vegan">Vegan</span><span class="badge cheap">Levné</span></div>
+					  <a href="restaurace-2.html">Dosa Dosa</a>
+					  <p>Bistro</p>
+					</div>
+					<img src="images/restaurace/dosa/dosa1.jpg" class="loc-img-container">
+				  </div>
+
+				  <div class="loc-container">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+					  <div class="badge-container"><span class="badge hidden">Hidden 💎</span></div>
+					  <a href="kavarna-6.html">ROESEL</a>
+					  <p>Kavárna</p>
+					</div>
+					<img src="images/kavarny/roesel/roesel1.jpg" class="loc-img-container">
+				  </div>
+
+				  <div class="loc-container">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+					  <div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge star">🌟</span></div>
+					  <a href="kino-4.html">Kino Aero</a>
+					  <p>Kino</p>
+					</div>
+					<img src="images/kina/aero/aero1.jpg" class="loc-img-container">
+				  </div>
+
+				  <div class="loc-container">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+					  <div class="badge-container"><span class="badge popular">Obílbené</span></div>
+					  <a href="galerie-1.html">Trafo Gallery</a>
+					  <p>Galerie</p>
+					</div>
+					<img src="images/galerie/trafo/trafo1.jpg" class="loc-img-container">
+				  </div>
+
+				  <div class="loc-container">
+          			<div class="loc-top" onclick="handleLocCardClick(this)">
+            		<div class="badge-container"><span class="badge hidden">Hidden 💎</span><span class="badge location">Lokace</span></div>
+            		<a href="galerie-5.html">35M2</a>
+            		<p>Galerie + Kavárna</p>
+          			</div>
+          		<img src="images/kavarny/pavlac/35m2-1.jpg" class="loc-img-container">
+        		</div>
+
+				<div class="loc-container">
+				<div class="loc-top" onclick="handleLocCardClick(this)">
+					<div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge star">🌟</span></div>
+					<a href="restaurace-5.html">Baden Baden Štvanice</a>
+					<p>Stánek</p>
+				</div>
+				<img src="images/restaurace/baden/baden-2.jpg" class="loc-img-container">
+				</div>
+
+				<div class="loc-container">
+				<div class="loc-top" onclick="handleLocCardClick(this)">
+					<div class="badge-container"><span class="badge location">Lokace</span></div>
+					<a href="kavarna-4.html">Cafe Academia</a>
+					<p>Kavárna</p>
+				</div>
+				<img src="images/kavarny/academia/academia1.jpg" class="loc-img-container">
+				</div>
+
+
+				<div class="loc-container">
+				<div class="loc-top" onclick="handleLocCardClick(this)">
+					<div class="badge-container"><span class="badge hidden">Hidden 💎</span><span class="badge cheap">Levné</span></div>
+					<a href="restaurace-6.html">Rana</a>
+					<p>Restaurace</p>
+				</div>
+				<img src="images/restaurace/rana/rana-1.jpg" class="loc-img-container">
+				</div>
+
+				<div class="loc-container loc-etc">
+					<div class="loc-top" onclick="handleLocCardClick(this)">
+						<a href="places.html">Další místa...</a>
+					</div>
+					<img src="images/kavarny/roesel/roesel2.jpg" alt="fotka kavárny v Praze" class="loc-img-container">
+					</img>
+				</div>
+
+
+			</div>
+
+		</div>
+		<script src="script.js"></script>
+
+		<footer class="main-footer">
+			<div class="footer-content spacing">
+			  <p class="footer-text">© 2025 prague curated</p>
+			  <div class="footer-links">
+				<a href="index.html">Home</a>
+				<a href="places.html">Curated Places</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+				<a href="submit.html">Submit</a>
+			  </div>
+			</div>
+		  </footer>
+	</body>
+
+</html>

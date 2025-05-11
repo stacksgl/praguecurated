@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Curated Places – pragueCurated</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- nav -->
+<div class="navbar spacing">
+  <div class="navbar-title">
+      <h1>prague curated</h1>
+  </div>
+  <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="places.html">Curated Places</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="submit.html">Submit</a>
+  </div>
+</div>
+
+<div class="hamburger" id="hamburgerBtn">☰</div>
+
+<!-- Mobile nav -->
+<div class="mobile-nav" id="mobileMenu">
+  <a href="index.html">home</a>
+  <a href="places.html">curated places</a>
+  <a href="about.html">about us</a>
+  <a href="contact.html">contact</a>
+  <a href="submit.html">submit</a>
+</div>
+
+<div class="content spacing" style="padding-top: 100px;">
+
+
+  <!-- KAVARNY -->
+  <section>
+    <h3>Kavárny</h3>
+    <div class="scroll-wrapper">
+      <button class="scroll-btn left" onclick="scrollLocs(this, -1)">←</button>
+      <div class="loc-scroll-container">
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge location">Lokace</span></div>
+            <a href="kavarna-1.html">Skautský institut</a>
+            <p>Staroměstské náměstí</p>
+          </div>
+          <img src="images/kavarny/skaut/skaut1.webp" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge coffee">Káva</span></div>
+            <a href="kavarna-2.html">Acid Coffee</a>
+            <p>Strossmayerovo náměstí</p>
+          </div>
+          <img src="images/kavarny/acid/acid2.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span></div>
+            <a href="kavarna-7.html">ROESEL</a>
+            <p>Malá strana</p>
+          </div>
+          <img src="images/kavarny/roesel/roesel1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span></div>
+            <a href="kavarna-14.html">Cafe Pavlač</a>
+            <p>Žižkov</p>
+          </div>
+          <img src="images/kavarny/pavlac/pavlac-1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge cheap">Levné</span></div>
+            <a href="kavarna-3.html">Kumbál</a>
+            <p>Letná</p>
+          </div>
+          <img src="images/kavarny/kumbal/kumbal1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge location">Lokace</span></div>
+            <a href="kavarna-4.html">Cafe Academia</a>
+            <p>Václavské náměstí</p>
+          </div>
+          <img src="images/kavarny/academia/academia1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span></div>
+            <a href="kavarna-5.html">Caffé Bar POSITIVO</a>
+            <p>Arbesovo náměstí</p>
+          </div>
+          <img src="images/kavarny/positivo/positivo1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span></div>
+            <a href="kavarna-13.html">Cafe Tvaroh</a>
+            <p>Letná, u Stromovky</p>
+          </div>
+          <img src="images/kavarny/tvaroh/tvaroh-1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span></div>
+            <a href="kavarna-15.html">Kavárna Orient</a>
+            <p>Kobylisy</p>
+          </div>
+          <img src="images/kavarny/orient/orient1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge cheap">Levné</span></div>
+            <a href="kavarna-8.html">Caffé Vescovi</a>
+            <p>Malá strana</p>
+          </div>
+          <img src="images/kavarny/vescovi/vescovi1.jpeg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge location">Lokace</span></div>
+            <a href="kavarna-9.html">Točna Dlabačov</a>
+            <p>Břevnov</p>
+          </div>
+          <img src="images/kavarny/tocna/tocna-1.jpg" class="loc-img-container">
+        </div>
+
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge cheap">Levné</span></div>
+            <a href="kavarna-10.html">Kafé Nůžky Papír</a>
+            <p>Nusle</p>
+          </div>
+          <img src="images/kavarny/knp/knp-1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge comfy">Comfy</span></div>
+            <a href="kavarna-11.html">Zasekávák</a>
+            <p>Bubenč</p>
+          </div>
+          <img src="images/kavarny/zasekavak/zasekavak-1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge coffee">Káva</span></div>
+            <a href="kavarna-12.html">Prostě Dobrý Kafe</a>
+            <p>Anděl</p>
+          </div>
+          <img src="images/kavarny/pdk/pdk-1.jpg" class="loc-img-container">
+        </div>
+
+      </div>
+      <button class="scroll-btn right" onclick="scrollLocs(this, 1)">→</button>
+    </div>
+  </section>
+
+
+  <!-- JIDLO -->
+  <section>
+    <h3>Podniky s jídlem</h3>
+    <div class="scroll-wrapper">
+      <button class="scroll-btn left" onclick="scrollLocs(this, -1)">←</button>
+      <div class="loc-scroll-container">
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge location">Lokace</span><span class="badge star">🌟</span></div>
+            <a href="restaurace-4.html">Manifesto Market</a>
+            <p>Anděl</p>
+          </div>
+          <img src="images/restaurace/manifesto/manifesto2.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span><span class="badge cheap">Levné</span></div>
+            <a href="restaurace-6.html">Rana</a>
+            <p>Libeň</p>
+          </div>
+          <img src="images/restaurace/rana/rana-1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge vegan">Vegan</span><span class="badge star">🌟</span></div>
+            <a href="restaurace-1.html">Natureza</a>
+            <p>Malá strana</p>
+          </div>
+          <img src="images/restaurace/natureza/natureza2.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span></div>
+            <a href="restaurace-3.html">U Svobodných Zednářů</a>
+            <p>Staré město</p>
+          </div>
+          <img src="images/restaurace/usvobodnych/usvobodnych2.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge star">🌟</span></div>
+            <a href="restaurace-5.html">Baden Baden Štvanice</a>
+            <p>Karlín</p>
+          </div>
+          <img src="images/restaurace/baden/baden-2.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge vegan">Vegan</span><span class="badge cheap">Levné</span></div>
+            <a href="restaurace-2.html">Dosa Dosa</a>
+            <p>Malá strana</p>
+          </div>
+          <img src="images/restaurace/dosa/dosa1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span></div>
+            <a href="kavarna-7.html">ROESEL</a>
+            <p>Malá strana</p>
+          </div>
+          <img src="images/kavarny/roesel/roesel1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span><span class="badge cheap">Levné</span></div>
+            <a href="restaurace-7.html">Hanoi Phở</a>
+            <p>Letná</p>
+          </div>
+          <img src="images/restaurace/hanoipho/hanoipho-1.jpg" class="loc-img-container">
+        </div>
+
+      </div>
+      <button class="scroll-btn right" onclick="scrollLocs(this, 1)">→</button>
+    </div>
+  </section>
+
+
+  <!-- KINA -->
+  <section>
+    <h3>Kina</h3>
+    <div class="scroll-wrapper">
+      <button class="scroll-btn left" onclick="scrollLocs(this, -1)">←</button>
+      <div class="loc-scroll-container">
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span><span class="badge comfy">Comfy</span></div>
+            <a href="kino-1.html">Přítomnost</a>
+            <p>Žižkov</p>
+          </div>
+          <img src="images/kina/pritomnost/pritomnost1.jpg" class="loc-img-container">
+        </div>
+
+		<div class="loc-container">
+			<div class="loc-top" onclick="handleLocCardClick(this)">
+        <div class="badge-container"><span class="badge popular">Obílbené</span></div>
+			  <a href="kino-2.html">Bio Oko</a>
+			  <p>Letná</p>
+			</div>
+			<img src="images/kina/biooko/bio1.jpg" class="loc-img-container" alt="kino">
+		  </div>
+
+		  <div class="loc-container">
+			<div class="loc-top" onclick="handleLocCardClick(this)">
+        <div class="badge-container"><span class="badge popular">Obílbené</span></div>
+			  <a href="kino-3.html">Kino Světozor</a>
+			  <p>Václavské náměstí</p>
+			</div>
+			<img src="images/kina/svetozor/svetozor1.jpg" class="loc-img-container">
+		  </div>
+
+		          <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Oblíbené</span><span class="badge star">🌟</span></div>
+            <a href="kino-4.html">Kino Aero</a>
+            <p>Žižkov</p>
+          </div>
+          <img src="images/kina/aero/aero1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge location">Lokace</span><span class="badge star">🌟</span></div>
+            <a href="kino-5.html">Kino Lucerna</a>
+            <p>Václavské náměstí</p>
+          </div>
+          <img src="images/kina/lucerna/lucerna-1.jpg" class="loc-img-container">
+        </div>
+
+      </div>
+      <button class="scroll-btn right" onclick="scrollLocs(this, 1)">→</button>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section>
+    <h3>Galerie</h3>
+    <div class="scroll-wrapper">
+      <button class="scroll-btn left" onclick="scrollLocs(this, -1)">←</button>
+      <div class="loc-scroll-container">
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Obílbené</span></div>
+            <a href="galerie-1.html">Trafo Gallery</a>
+            <p>Holešovická tržnice</p>
+          </div>
+          <img src="images/galerie/trafo/trafo1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span></div>
+            <a href="galerie-2.html">The Chemistry Gallery</a>
+            <p>Holešovická tržnice</p>
+          </div>
+          <img src="images/galerie/chemistry/chem1.jpg" class="loc-img-container" >
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Obílbené</span><span class="badge star">🌟</span></div>
+            <a href="galerie-3.html">Galerie Rudolfinum</a>
+            <p>Staroměstská</p>
+          </div>
+          <img src="images/galerie/rudolfinum/rudo2.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge hidden">Hidden 💎</span><span class="badge location">Lokace</span></div>
+            <a href="galerie-5.html">35M2</a>
+            <p>Žižkov</p>
+          </div>
+          <img src="images/kavarny/pavlac/35m2-1.jpg" class="loc-img-container">
+        </div>
+
+        <div class="loc-container">
+          <div class="loc-top" onclick="handleLocCardClick(this)">
+            <div class="badge-container"><span class="badge popular">Obílbené</span></div>
+            <a href="galerie-4.html">Pragovka</a>
+            <p>Vysočany</p>
+          </div>
+          <img src="images/galerie/pragovka/pragovka1.jpg" class="loc-img-container">
+        </div>
+
+      </div>
+      <button class="scroll-btn right" onclick="scrollLocs(this, 1)">→</button>
+    </div>
+  </section>
+
+</div>
+<footer class="main-footer">
+  <div class="footer-content spacing">
+    <p class="footer-text">© 2025 prague curated</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="places.html">Curated Places</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="submit.html">Submit</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
